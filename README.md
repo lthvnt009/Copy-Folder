@@ -1,6 +1,3 @@
-Tóm tắt nội dung
-Dưới đây là nội dung cho file README.md của chương trình bạn, đã được cập nhật để phản ánh những thay đổi mới nhất như sử dụng folder.ico và lưu đường dẫn vào Registry.
-
 Ứng dụng Sao chép Cấu trúc Thư mục
 Giới thiệu
 Đây là một ứng dụng nhỏ gọn được xây dựng bằng Python và thư viện CustomTkinter. Chương trình cho phép người dùng chọn một thư mục nguồn và một thư mục đích, sau đó sao chép toàn bộ cấu trúc thư mục từ nguồn sang đích mà không sao chép các tệp tin bên trong.
@@ -58,5 +55,6 @@ pyinstaller --onefile --windowed --add-data "folder.ico;." --icon="folder.ico" c
 --add-data "folder.ico;.": Đính kèm file folder.ico vào gói.
 
 --icon="folder.ico": Sử dụng file folder.ico làm icon cho file .exe.
+
 
 Sau khi lệnh chạy thành công, file .exe sẽ nằm trong thư mục dist.
